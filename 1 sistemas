@@ -1,0 +1,51 @@
+<html>
+<style>
+  body{
+      background-color:white;
+      background-image:url("https://img.freepik.com/fotos-gratis/renderizacao-3d-do-fundo-de-textura-hexagonal_23-2150796421.jpg?semt=ais_related_payload_trends&w=740&q=80");
+      background-size:150%;
+      background-repeat:no-repeat;
+      }  
+    div{
+        background-color:"white";
+        
+        background-size:25%;
+        background-repeat:no-repeat;
+        width:75%;
+        height:70px;
+        color:;
+        margin-left:12%;
+    
+    }
+    
+    #vermelho {
+        background-color:red;
+    }
+    #azul {
+        background-color:darkblue;
+    }
+    #amarelo {
+        background-color:yellow;
+    }
+    #verde {
+        background-color:green;
+    }
+    
+    </style>
+    <body>
+        
+        <div>
+            <h1>Flag of Mauritius</h1> 
+        </div>
+        
+        <div id="vermelho" > </div>
+        
+        <div id="azul" > </div>
+        
+        <div id="amarelo" > </div> 
+        
+        <div id="verde" > </div> 
+        
+        
+    </body>
+</html>
