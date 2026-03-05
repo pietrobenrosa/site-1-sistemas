@@ -1,51 +1,61 @@
 <html>
-<style>
-  body{
-      background-color:white;
-      background-image:url("https://img.freepik.com/fotos-gratis/renderizacao-3d-do-fundo-de-textura-hexagonal_23-2150796421.jpg?semt=ais_related_payload_trends&w=740&q=80");
-      background-size:150%;
-      background-repeat:no-repeat;
-      }  
-    div{
-        background-color:"white";
+    <style>
+        body{
+            background-color:black;
+            background-image:url("");
+            background-size:100%;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        div{
+            background-color:black;
+            width:98%;
+            color:white;
+            margin-left:0%;
+        }
+        #azul{
+            background-color:#006847;
+            width:50%;
+            height:300px;
+        }
+        #branco{
+            background-color:white;
+            width:50%;
+            height:300px;
+            background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXGHxyHfJQQuYiXIgwNoctpzP96c8CWzOyA&s");
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:150px;
+        }
+        #vermelho{
+            background-color:#CE1126;
+            width:50%;
+            height:300px;
+        }
+        section{
+            width:500px;
+            height:300px;
+            display:flex;
+            border:double white 3px;
+        }
+        button {
+        padding: 15px 30px;
+        font-size: 18px;
+        width: 200px;
         
-        background-size:25%;
-        background-repeat:no-repeat;
-        width:75%;
-        height:70px;
-        color:;
-        margin-left:12%;
-    
-    }
-    
-    #vermelho {
-        background-color:red;
-    }
-    #azul {
-        background-color:darkblue;
-    }
-    #amarelo {
-        background-color:yellow;
-    }
-    #verde {
-        background-color:green;
-    }
-    
+}
     </style>
     <body>
-        
+        <button onclick="alert('Você clicou no botão!')">
+            oiiiiiiiiiiie
+        </button>
         <div>
-            <h1>Flag of Mauritius</h1> 
+            <p></p>
         </div>
-        
-        <div id="vermelho" > </div>
-        
-        <div id="azul" > </div>
-        
-        <div id="amarelo" > </div> 
-        
-        <div id="verde" > </div> 
-        
-        
+        <section>
+        <div id="azul"></div>
+        <div id="branco"></div>
+        <div id="vermelho"></div>
+        </section>
     </body>
 </html>
